@@ -5,16 +5,16 @@ circuit
 
 Pin setting
 
-D0, D1 : Serial0
-(int) D2 : encoder L pulse 1
-(pwm) D3 : encoder B pwm
-(int) D4 : encoder L pulse 2
-(pwm) D5 : encoder   pwm 
-(pwm) D6 : encoder   pwm
-(int) D7 : encoder R pulse 1
-(int) D8 : encoder R pulse 2
-(pwm) D9 : servo pwm
-(dgt) D10 : encoder   dir
-(dgt) D11 : encoder   dir
-(dgt) D12 : encoder   dir
-(anl) A0 : FSR sensor
+D0, D1 : Serial0 <br/> 
+(int) D2 : encoder L pulse 1 <br/> 
+(pwm) D3 : encoder B pwm <br/> 
+(int) D4 : encoder L pulse 2 <br/> 
+(pwm) D5 : encoder   pwm <br/> 
+(pwm) D6 : encoder   pwm <br/> 
+(int) D7 : encoder R pulse 1 <br/> 
+(int) D8 : encoder R pulse 2 <br/> 
+(pwm) D9 : servo pwm <br/> 
+(dgt) D10 : encoder   dir <br/> 
+(dgt) D11 : encoder   dir <br/> 
+(dgt) D12 : encoder   dir <br/> 
+(anl) A0 : FSR sensor <br/> 
