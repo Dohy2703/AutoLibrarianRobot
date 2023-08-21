@@ -20,7 +20,7 @@ D0, D1 : Serial0 <br/>
 (anl) A0 : FSR sensor <br/> 
 (anl) A1 : encoder B dir (예정) <br/>
 
-(int) 42 : encoder B pulse 1
-(int) 45 : encoder B pulse 2
-(int) 72 : encoder B switch 2
+(int) 42 : encoder B pulse 1 <br/>
+(int) 45 : encoder B pulse 2 <br/>
+(int) 72 : encoder B switch 2 <br/>
 
