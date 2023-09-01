@@ -1,6 +1,6 @@
 
 **FAST** <br/> 
-FAST: Faster Arbitrarily-Shaped Text Detector with Minimalist Kernel Representation <br/>
+FAST: Faster Arbitrarily-Shaped Text Detector with Minimalist Kernel Representation <br/><br/>
 **Thanks to** <br/>
   https://github.com/czczup/FAST<br/>
   https://github.com/Chappie74/fast_demo<br/><br/>
@@ -14,9 +14,7 @@ custom data inference code<br/> <br/>
 
 then,<br/>
 
-    $ cd model<br/>
-    $ cd post_processing<br/>
-    $ cd ccl<br/>
+    $ cd model/post_processing/ccl<br/>
     $ python setup.py build_ext --inplace<br/><br/>
     
 
