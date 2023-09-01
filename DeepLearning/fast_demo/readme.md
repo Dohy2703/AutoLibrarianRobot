@@ -5,6 +5,19 @@ FAST: Faster Arbitrarily-Shaped Text Detector with Minimalist Kernel Representat
 custom data inference code<br/> <br/>
 
 
+**Installation & Setting** <br/>
+
+    $ pip install -r requirements.txt<br/> 
+
+then,<br/>
+
+    $ cd model<br/>
+    $ cd post_processing<br/>
+    $ cd ccl<br/>
+    $ python setup.py build_ext --inplace<br/><br/>
+    
+
+
 **Thanks to** <br/>
   https://github.com/czczup/FAST<br/>
   https://github.com/Chappie74/fast_demo<br/><br/>
