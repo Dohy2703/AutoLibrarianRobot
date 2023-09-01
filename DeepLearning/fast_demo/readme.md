@@ -6,13 +6,16 @@
 
 *Change log*
 fast_head.py <br/>
+
   line6 | from ..utils import generate_bbox --> from ..utils.generate_bbox import generate_bbox <br/>
 
 prepare_input.py <br/>
+
   line47 | org_img_size=np.array(img.shape[:2]) --> org_img_size=[np.array(img.shape[:2])]<br/>
   line52 | img_size=np.array(img.shape[:2]), --> img_size=[np.array(img.shape[:2])],<br/>
 
 generate_bbox.py <br/>
+
   line15 | if points.shape[0] < cfg.test_cfg.min_area : --> if points.shape[0] < cfg.test_cfg['min_area']: <br/>
   line19 | if score_i < cfg.test_cfg.min_score : --> if score_i < cfg.test_cfg['min_score']: <br/>
   line23 | if cfg.test_cfg.bbox_type == 'rect': --> if cfg.test_cfg['bbox_type'] == 'rect': <br/>
