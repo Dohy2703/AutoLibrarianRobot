@@ -1,6 +1,9 @@
 
 **FAST** <br/> 
 FAST: Faster Arbitrarily-Shaped Text Detector with Minimalist Kernel Representation <br/>
+**Thanks to** <br/>
+  https://github.com/czczup/FAST<br/>
+  https://github.com/Chappie74/fast_demo<br/><br/>
 
 custom data inference code<br/> <br/>
 
@@ -16,12 +19,6 @@ then,<br/>
     $ cd ccl<br/>
     $ python setup.py build_ext --inplace<br/><br/>
     
-
-
-**Thanks to** <br/>
-  https://github.com/czczup/FAST<br/>
-  https://github.com/Chappie74/fast_demo<br/><br/>
-
 
 **Change log**<br/>
 fast_head.py <br/>
