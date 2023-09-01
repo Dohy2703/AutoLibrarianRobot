@@ -36,4 +36,5 @@ generate_bbox.py <br/>
     line29 | elif cfg.test_cfg.bbox_type == 'poly': --> elif cfg.test_cfg['bbox_type'] == 'poly':
 
 fast_neck.py <br/>
+
     line31 | return F.upsample(x, size=(H, W), mode='bilinear') --> return F.interpolate(x, size=(H, W), mode='bilinear')
