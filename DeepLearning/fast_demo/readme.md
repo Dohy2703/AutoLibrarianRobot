@@ -10,7 +10,7 @@ custom data inference code<br/> <br/>
   https://github.com/Chappie74/fast_demo<br/><br/>
 
 
-**Change log**
+**Change log**<br/>
 fast_head.py <br/>
 
     line6 | from ..utils import generate_bbox --> from ..utils.generate_bbox import generate_bbox <br/>
