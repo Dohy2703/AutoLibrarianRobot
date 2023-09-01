@@ -37,6 +37,10 @@ generate_bbox.py <br/>
     line23 | if cfg.test_cfg.bbox_type == 'rect': --> if cfg.test_cfg['bbox_type'] == 'rect':
     line29 | elif cfg.test_cfg.bbox_type == 'poly': --> elif cfg.test_cfg['bbox_type'] == 'poly':
 
+fast_neck.py <br/>
+
+    line31 | return F.upsample(x, size=(H, W), mode='bilinear') --> return F.interpolate(x, size=(H, W), mode='bilinear')
+
 <br/>
 
 **Inference custom data**<br/>
@@ -44,8 +48,3 @@ generate_bbox.py <br/>
 test.py <br/>
 
     line31 | image_path = ' ' <-- your image path
-
-
-fast_neck.py <br/>
-
-    line31 | return F.upsample(x, size=(H, W), mode='bilinear') --> return F.interpolate(x, size=(H, W), mode='bilinear')
