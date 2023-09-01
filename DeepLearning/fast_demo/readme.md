@@ -7,12 +7,12 @@
 *Change log*
 fast_head.py <br/>
 
-  line6 | from ..utils import generate_bbox --> from ..utils.generate_bbox import generate_bbox <br/>
+    line6 | from ..utils import generate_bbox --> from ..utils.generate_bbox import generate_bbox <br/>
 
 prepare_input.py <br/>
 
-  line47 | org_img_size=np.array(img.shape[:2]) --> org_img_size=[np.array(img.shape[:2])]<br/>
-  line52 | img_size=np.array(img.shape[:2]), --> img_size=[np.array(img.shape[:2])],<br/>
+    line47 | org_img_size=np.array(img.shape[:2]) --> org_img_size=[np.array(img.shape[:2])]<br/>
+    line52 | img_size=np.array(img.shape[:2]), --> img_size=[np.array(img.shape[:2])],<br/>
 
 generate_bbox.py <br/>
 
