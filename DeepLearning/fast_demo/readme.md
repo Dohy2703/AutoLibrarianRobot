@@ -1,10 +1,16 @@
 
-*Thanks to* <br/>
+**FAST** <br/> 
+FAST: Faster Arbitrarily-Shaped Text Detector with Minimalist Kernel Representation <br/>
+
+custom data inference code<br/> <br/>
+
+
+**Thanks to** <br/>
   https://github.com/czczup/FAST<br/>
   https://github.com/Chappie74/fast_demo<br/><br/>
 
 
-*Change log*
+**Change log**
 fast_head.py <br/>
 
     line6 | from ..utils import generate_bbox --> from ..utils.generate_bbox import generate_bbox <br/>
