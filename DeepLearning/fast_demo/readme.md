@@ -10,12 +10,12 @@ custom data inference code<br/> <br/>
 
 **Installation & Setting** <br/>
 
-    $ pip install -r requirements.txt<br/> 
+    $ pip install -r requirements.txt
 
 then,<br/>
 
-    $ cd model/post_processing/ccl<br/>
-    $ python setup.py build_ext --inplace<br/><br/>
+    $ cd model/post_processing/ccl
+    $ python setup.py build_ext --inplace
     
 
 **Change log**<br/>
